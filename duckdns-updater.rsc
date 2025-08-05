@@ -5,4 +5,4 @@
 :local duckUrl ("https://www.duckdns.org/update?domains=YOUR_SUBDOMAIN&token=YOUR_TOKEN&ip=" . $ipAddress)
 
 # Update
-/tool/fetch url=$duckUrl http-method=get
+/tool/fetch url=$duckUrl http-method=get output=none
